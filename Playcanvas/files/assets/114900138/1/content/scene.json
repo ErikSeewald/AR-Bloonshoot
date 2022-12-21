@@ -1,0 +1,80 @@
+{
+	"scene": {
+		"version": 1,
+		"assets": {
+			"renders": {
+				"Cube.003": {
+					"index": 0,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 2143,
+					"triangles": 1260,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					}
+				}
+			},
+			"materials": [
+				"Material"
+			]
+		},
+		"entities": {
+			"0": {
+				"name": "RootNode",
+				"parent": -1,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					0.01,
+					0.01,
+					0.01
+				],
+				"scaleCompensation": false,
+				"children": [
+					1
+				]
+			},
+			"1": {
+				"name": "Cube.003",
+				"parent": 0,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					-90,
+					-90,
+					0
+				],
+				"scale": [
+					100,
+					100,
+					100
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": "Cube.003",
+						"materials": [
+							"Material"
+						]
+					}
+				}
+			}
+		}
+	}
+}

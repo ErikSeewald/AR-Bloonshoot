@@ -1,0 +1,80 @@
+{
+	"scene": {
+		"version": 1,
+		"assets": {
+			"renders": {
+				"Icosphere": {
+					"index": 0,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 969,
+					"triangles": 1660,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					}
+				}
+			},
+			"materials": [
+				"Pin"
+			]
+		},
+		"entities": {
+			"0": {
+				"name": "RootNode",
+				"parent": -1,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					0.01,
+					0.01,
+					0.01
+				],
+				"scaleCompensation": false,
+				"children": [
+					1
+				]
+			},
+			"1": {
+				"name": "Pin",
+				"parent": 0,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					-90,
+					0,
+					0
+				],
+				"scale": [
+					100,
+					100,
+					46.2626
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": "Icosphere",
+						"materials": [
+							"Pin"
+						]
+					}
+				}
+			}
+		}
+	}
+}

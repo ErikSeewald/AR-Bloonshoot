@@ -1,19 +1,19 @@
 Level 1:
-	Balloons: 20
-	Pins available:15 --- 1 Star; 2 Stars - <= 10; 3 Stars <= 5
+	Pins available: 15
+	Balloons:3 Stars - >= 30; 2 Stars - >= 20; 1 Star >= 10
 
 Level 2:
-	Balloons: 35
-	Pins available:15 --- 1 Star; 2 Stars - <= 10; 3 Stars <= 5
+	Pins available: 15
+	Balloons: 3 Stars - >= 40; 2 Stars - >= 32; 1 Star >= 25
 
 Level 3:
-	Balloons: 35
-	Pins available:15 --- 1 Star; 2 Stars - <= 10; 3 Stars <= 5
+	Pins available: 20
+	Balloons: 3 Stars - >= 55; 2 Stars - >= 50; 1 Star >= 40
 
 Level 4:
-	Balloons: 30
-	Pins available:15 --- 1 Star; 2 Stars - <= 10; 3 Stars <= 5
+	Pins available: 20
+	Balloons: 3 Stars - >= 45; 2 Stars - >= 38; 1 Star >= 30
 
 Level 5:
-	Balloons: 100
-	Pins available:15 --- 1 Star; 2 Stars - <= 10; 3 Stars <= 5
+	Pins available: 15
+	Balloons: 3 Stars - >= 111; 2 Stars - >= 100; 1 Star >= 80

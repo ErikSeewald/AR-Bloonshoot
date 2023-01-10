@@ -1,6 +1,6 @@
 Level 1:
 	Pins available: 15
-	Balloons:3 Stars - >= 30; 2 Stars - >= 20; 1 Star >= 10
+	Balloons:3 Stars - >= 30; 2 Stars - >= 20; 1 Star >= 5
 
 Level 2:
 	Pins available: 15

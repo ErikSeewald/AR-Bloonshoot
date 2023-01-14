@@ -29,13 +29,17 @@ LevelLoader.prototype.initialize = function () {
     this.app.balloonClearCounts = [10, 20, 30]; //amount of balloons to get stars
     this.app.balloonCount = 0;
 
+
+    this.pin = this.app.root.findByName("Pin");
+
     //EVENTS
     this.app.on(this.next_level_Event, () => {
         this.app.levelNum++;
         if (this.app.levelNum > 5) { this.app.levelNum = 1; }
 
         this.loadLevel();
-        this.app.root.findByName("Pin").script.shotHandler.reset();
+        this.pin.script.shotHandler.reset();
+        this.pin.enabled = true;
 
     }, this);
 
@@ -44,14 +48,16 @@ LevelLoader.prototype.initialize = function () {
         if (this.app.levelNum < 1) { this.app.levelNum = 5; }
 
         this.loadLevel();
-        this.app.root.findByName("Pin").script.shotHandler.reset();
+        this.pin.script.shotHandler.reset();
+        this.pin.enabled = true;
 
     }, this);
 
     this.app.on(this.restart_Event, () => {
 
         this.loadLevel();
-        this.app.root.findByName("Pin").script.shotHandler.reset();
+        this.pin.script.shotHandler.reset();
+        this.pin.enabled = true;
 
     }, this);
 };
